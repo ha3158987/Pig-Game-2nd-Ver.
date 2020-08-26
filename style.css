@@ -2,31 +2,7 @@
 *** GENERAL
 **********************************************/
 
-.final-score {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 520px;
-  color: #555;
-  font-size: 18px;
-  font-family: "Lato";
-  text-align: center;
-  padding: 10px;
-  width: 160px;
-  text-transform: uppercase;
-}
-
-.final-score:focus {
-  outline: none;
-}
-
-#dice-1 {
-  top: 120px;
-}
-#dice-2 {
-  top: 250px;
-}
-
+/* Universal selector: 웹페이지의 모든 요소들에 적용 */
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +15,7 @@
   clear: both;
 }
 
+/* body는 type selector. body의 하위 요소들에 한해 모두 적용 */
 body {
   background-image: linear-gradient(
       rgba(62, 20, 20, 0.4),

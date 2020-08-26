@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!--폰트와 아이콘을 가져올 수 있게(import)해주는 태그-->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
       rel="stylesheet"
@@ -12,6 +13,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!--HTML과 외부의 CSS 파일을 connect할 수 있게 해줌-->
     <link type="text/css" rel="stylesheet" href="style.css" />
 
     <title>Pig Game</title>
@@ -45,13 +47,9 @@
         <i class="ion-ios-download-outline"></i>Hold
       </button>
 
-      <input type="text" placeholder="Final score" class="final-score" />
-
-      <img src="dice-5.png" alt="Dice" class="dice" id="dice-1" />
-      <img src="dice-5.png" alt="Dice" class="dice" id="dice-2" />
+      <img src="dice-5.png" alt="Dice" class="dice" />
     </div>
-
-    <!--<script src="app.js"></script>-->
-    <script src="challenges.js"></script>
+    <!--JavaScript connection-->
+    <script src="app.js"></script>
   </body>
 </html>
